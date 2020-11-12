@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+
+<!--HEADER-->
+
+<!--BANNER-->
+{% block banner %}
+    {{ super() }}
+    {% include 'base/content.html' %}
+    {% include 'base/aboutus.html' %}
+    {% include 'base/feature.html' %}
+    {% include 'base/discount.html' %}
+    {% include 'base/gallery.html' %}
+    {% include 'base/event.html' %}
+    {% include 'base/feedback.html' %}
+{% endblock %}
+
